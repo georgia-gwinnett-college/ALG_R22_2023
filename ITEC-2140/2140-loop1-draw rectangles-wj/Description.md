@@ -4,7 +4,7 @@
 
 In this exercise, you will first study the starter code that draws the rectangles as follows.
 
- ![rectangles](images/rectangles.PNG)
+<img src="images/rectangles.PNG" width="200">
 
 You will figure out the pattern of the locations of the rectangles and convert it into a loop based solution. 
 
