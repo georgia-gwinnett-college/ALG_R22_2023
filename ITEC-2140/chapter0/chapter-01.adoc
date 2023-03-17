@@ -1,0 +1,112 @@
+:pt_chapter: 1   
+
+= Installing Processing
+
+== Learning Outcomes
+Students will be able to:
+
+. Download and install Processing 
+. Open a processing project folder
+. Run the code in the project
+
+
+
+== Introduction to Processing
+Regular text _italic_, *bold*, and *_italic and bold_*. 
+
+image:images/StudenCourseTeacherUML.JPG[Student-Course-Teacher UML Diagram]
+
+image::images/petclinicUML.png[width=60%]
+
+== Download and Install Processing
+
+* Official Site: https://processing.org/download[Download Processing] 
+
+
+* https://www.youtube.com/watch?v=Q04sKyZsUKo[How to download and install Processing Programming Language on Windows 10]
+
+== Starter Code 
+
+Link to starter code zip file
+
+== Starter Code Explanation
+Just like a student is also a GGC member, a Student object can also be "called" GGCMember and its reference can be stored in a GGCMember variable. Similarly, a Faculty or Staff object can be "called" Employee or GGCMember and its reference can be stored in either an Employee variable or a GGCMember variable.  
+
+.Example 1's Student.java
+[source,java]
+----
+public class Student extends GGCMember 
+{
+	private String major;
+
+	public Student(long id, String firstName, String lastName, String major) {
+		super(id, firstName, lastName);
+		this.major = major;
+	}
+
+	//getter and setter for major (not shown)
+
+	@Override
+	public String toString() 
+	{
+		return "Student [ID=" + super.getID() + ", major=" + major + 
+				", " + super.getFirstName() + " " + super.getLastName() + "]";
+	}
+}
+----
+Similarly, a Faculty or Staff object can be "called" Employee or GGCMember and its reference can be stored in either an Employee variable or a GGCMember variable. That is, an object can be accessed via reference variable of its type or a reference variable of any of its superclass type(s). This gives us the freedom to use one variable to hold references to any object of its subclasses. The following is an example. Variable *_m_* is of the GGCMember type, it can hold references for Student objects, Staff objects and Faculty objects.
+
+.Example 1' GGCRoster.java
+[source,java]
+----
+ 1| public class GGCRoster 
+ 2| {
+ 3|	  public static void main(String[] args) 
+ 4|   {
+ 5|		GGCMember m;
+ 6|		
+ 7|		m = new Student(90011022L, "John", "Smith", "MATH"); //m is bound to a Student object
+ 8|		System.out.println(m); //toString method for the Student object will be invoked
+ 9|		
+10|		m = new Staff(90003088L, "Rachel", "Morgan", "Academic Affairs", "SST"); //m is bound to a Staff object
+11|		System.out.println(m); //toString method for the Staff object will be invoked
+12|
+13|		m = new Faculty(90021028L, "Linda", "Davis", "Academic Affairs", "CHEM"); //m is bound to a Faculty object
+14|		System.out.println(m); //toString method for the Faculty object will be invoked
+15|	  }
+16| }
+----
+
+== Key Terms
+include::../keyterms.adoc[tags=chapter1]
+
+== Exercises
+=== Exercise 1
+Exercise 1 description
+
+==== Task 1: Create business class Person
+. Person should have the following properties (attributes, instance variables, member variables). Pick appropriate data types:
+.. name – stores the full name of a person
+.. age – stores age of a person in whole years
+. Create a no-argument constructor for this class
+.. In the constructor for the Person class, use your information to initialize the instance variables
+. Create a 3-arg constructor that initializes the instance variables to passed parameters
+
+==== Task 2: Create tester class PersonTester
+. In the main() method, create an object of class Person called person1 using the no-argument constructor.
+. SOP person1 details using toString().
+
+=== Exercise 2
+Exercise 2 description
+
+==== Task 1: Create business class Person
+. Person should have the following properties (attributes, instance variables, member variables). Pick appropriate data types:
+.. name – stores the full name of a person
+.. age – stores age of a person in whole years
+. Create a no-argument constructor for this class
+.. In the constructor for the Person class, use your information to initialize the instance variables
+. Create a 3-arg constructor that initializes the instance variables to passed parameters
+
+==== Task 2: Create tester class PersonTester
+. In the main() method, create an object of class Person called person1 using the no-argument constructor.
+. SOP person1 details using toString().

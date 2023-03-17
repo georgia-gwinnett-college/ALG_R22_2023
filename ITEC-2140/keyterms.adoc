@@ -1,0 +1,144 @@
+[index]
+
+
+= Key Terms
+
+== Chapter 1
+# tag::chapter1[]
+Behavior: actions of an object; represented by the methods of an object.
+
+Class: a blueprint that defines an object.
+
+Heap memory: dynamically allocated memory used to store objects.
+
+Object/Instance: represents an entity in the real world and has state and behavior.
+
+Object-oriented programming: a way of organizing code around objects, instead of actions.
+
+Reference: memory address of where the object is located.
+
+Reference type: a class; variable of this type can reference an object of a class.
+
+Reference variable: variable of a class type, which contains a reference to the object of that class.
+
+Stack memory: stores local variables of primitive type and reference variables; memory is accessed in First In Last Out order.
+
+State: represented by data fields or attributes of the object.
+# end::chapter1[]
+
+== Chapter 2
+# tag::chapter2[]
+Access specifiers: private, default, protected, and public. 
+
+Association: a general binary relation between two separate classes. For example, a student taking a course is an association between the Student class and the Course class. 
+
+Aggregation: an association when one object uses another object. 
+
+Composition: an association when one object owns other class and other class cannot meaningfully exist. Composition is stronger than aggregation. 
+
+Default access specifier (no modifier): accessible within the same package.
+
+Inheritance: a mechanism to define new classes from existing classes. In java, classes can inherit the properties and methods of superclass. 
+
+private access specifier: acceessible within the class where defined. 
+
+protected access specifier: accessible to class 
+
+public access specifier: accessible from subclasses and members of the same package. 
+
+Overriding method:When a method in a subclass has the same name, same parameters or signature, and same return types(or sub-type) as a method in its superclass.
+
+Overloading method: a class is allowed to have more than one method having the same name as long as their parameter lists are different. 
+
+Superclass (a parent class or a base class): a general class which a method(s) to a subclass. Or the class being inherited from. 
+
+Subclass (child): The derived class that is derived from superclass. 
+# end::chapter2[]
+
+== Chapter 3
+# tag::chapter3[]
+*Dynamic Binding*: In dynamic binding, the method call is bonded to the method body at runtime. This is also known as late binding.
+
+*Polymorphism*: Polymorphism means that a reference variable can hold references to different types of objects. For example, a reference variable could refer to objects that belong to any of its subclasses. A reference variable can also hold references to objects belonging to different classes that implement the same interface.
+
+*Abstract Method*: An abstract method is a method that is declared, but contains no implementation. 
+
+*Non-instantiable*: A class is non-instantiable if objects of that class can be created. 
+
+*Abstract Class*: A class that contains abstract methods is an abstract class. The class header of an abstract class needs to contain the keyword abstrast. Abstract classes may not be instantiated, and require subclasses to provide implementations for the abstract methods. 
+
+*Interface*: An interface contains no attributes but only public abstract methods. An interface cannot be instantiated.
+
+*Interface Implementation*:  A class implments an interface by providing implementations of at least one of the abstract methods contained in the interface.
+
+*Interface Inheritance*: There is also inheritance relationship among interfaces, just like among classes.
+# end::chapter3[]
+
+== Chapter 4
+# tag::chapter4[]
+Exception - An erroneous or anomalous condition that comes up when a program is running.
+
+Exception Handling - An approach that separates a program's normal code from it's error-handling code.
+
+Throw - To throw an exception is to create an exception object and pass it off to the run-time environment.  This is done explicity in code using the *throw* keyword.
+
+Stack Trace-A stack trace is sometimes called a stack backtrace or even just a backtrace. The stack traceis a list of stack frames. A stack frame indicates a moment during an application’s execution when a method is called. A stack frame contains information about where the method was called from in the Java source code. So the Java stack trace generated when an exception is called is a list of frames that starts at line in the method the exception occurred and extends back to when the program started.
+# end::chapter4[]
+
+== Chapter 5
+# tag::chapter5[]
+File - A resource used to store a collection of data on a computer storage device.
+
+Text File - A computer file consisting of human readable Unicode characters. Typically read using a text editor like the one in most IDE’s. Considered human readable.
+
+Binary File - A computer file stored in the native binary code of the computer. Not considered human readable.
+
+Input - Information or data from an external source read into a Java program.
+
+Output - Information or data from a Java program written to an external source.
+
+Open a File- Create a stream of data to or from a computer file.
+
+File Stream - A one way queue of data either to or from a file. The order of data in the queue represents the order of the data in the file.
+
+Close a File- Flush and close a stream of data to or from a file. When writing a file, forces the program to wait until all data in the stream has been written to the file. When reading a file, terminates any further data coming from the file.
+
+Delimiter - Delimiters are whitespace characters used to separate various pieces of data in a text file. Examples are a blank space, tab, or end of line characters which do not show up as print in a text file.
+# end::chapter5[]
+
+== Chapter 6
+# tag::chapter6[]
+bounded type: A generic type being specified as a subtype of another type
+
+upper bounded wildcard (<? extends E>): bounds with upper inheritance constraint by using etends keyword. 
+
+lower bound wildcard (<? super E>): bounds is using the wildcard character (?), following by the super keyword by its lower bound. 
+
+unbounded wildcard(<?>): bounds which is specified using <?>. this is called unknown type. 
+
+raw type: a name of a generic class or interface without any type arguments. 
+
+type erasure: the process of type checking only at compile time and discarding the element type information at runtime. 
+# end::chapter6[]
+
+
+== Chapter 7
+# tag::chapter7[]
+recursion: computation that invovles a function (or method) calling itself
+
+base case: the simplest case in a recursive solution
+
+recursive case: mirrors the overall solution but with simplified input values
+
+direct recursion: when the same method calls itself
+
+indirect recursion: when more than one method is involved in a recursion
+
+recursive backtracking: when recursion is used to build a set of candidate solutions and a criteria is applied to select the right ones
+
+# end::chapter7[]
+
+== Chapter 8
+# tag::chapter8[]
+# end::chapter8[]
+

@@ -1,0 +1,44 @@
+= Intermediate Programming http://itec2150.gitlab.io/IntermediateProgramming.pdf[(download pdf)]
+Hyesung Park, Sonal S. Dekhane, Wei Jin, Cynthia Johnson, Yan Zong Ding, Tacksoo Im
+:toc: left
+:toclevels: 3
+:linkcss:
+:source-highlighter: pygments
+:pygments-style: emacs
+:icons: font
+:linkattrs:
+:sectnums:
+:nofooter:
+
+//['manni', 'igor', 'lovelace', 'xcode', 'vim', 'autumn', 'vs', 'rrt', 'native', 'perldoc', 'borland', 'tango', 'emacs', 'friendly', 'monokai', 'paraiso-dark', 'colorful', 'murphy', 'bw', 'pastie', 'algol_nu', 'paraiso-light', 'trac', 'default', 'algol', 'fruity']
+//To force build.
+[.float-group]
+--
+//[.left.text-left]
+//image::images/GGC_Logo.png[GGC,250,200]
+--
+
+:leveloffset: +1
+
+
+include::chapter1/chapter-01.adoc[]
+
+include::chapter2/chapter-02.adoc[]
+
+include::chapter3/chapter-03.adoc[]
+
+include::chapter4/chapter-04.adoc[]
+
+include::chapter5/chapter-05.adoc[]
+
+include::chapter6/chapter-06.adoc[]
+
+include::chapter7/chapter-07.adoc[]
+
+include::bibliography.adoc[]
+
+include::glossary.adoc[]
+
+include::index.adoc[]
+
+:leveloffset: -1

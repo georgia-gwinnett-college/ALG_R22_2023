@@ -1,0 +1,32 @@
+:pt_chapter: 1   
+
+= Installing Processing
+
+== Learning Outcomes
+Students will be able to:
+
+. Download and install Processing 
+. Open a processing project folder
+. Run the code in the project
+
+
+== Download and Install Processing
+
+* Official Site: https://processing.org/download[Download Processing] 
+
+== Turotial Video
+
+Will change to our own video: https://www.youtube.com/watch?v=Q04sKyZsUKo[How to download and install Processing Programming Language on Windows 10]
+
+Please follow the video to download and install Processing. The starter code used can be downloaded using the link below.
+
+== Starter Code 
+
+link to zip file
+
+=== Code Explanation
+
+
+== Exercises
+=== Exercise 1
+Download this zip file. Unzip the file into a folder and be able to run the code. 
