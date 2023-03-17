@@ -9,3 +9,4 @@ We decide to use Asiidoc to author the exercise descriptions: https://asciidoc.o
 
 Here is the app that you can use to edit an Asciidoc file: https://asciidocfx.com/#how-to-install-asciidocfx
 
+We can use this to allow students run their code online (step 2): https://cs.nyu.edu/~kapp/cs101/processing_on_the_web/
