@@ -21,24 +21,21 @@ link to zip file
 === Code Explanation
 
 
-== Exercise 1: Using Loop to Simplify Drawing Lots of Rectangles with Clear Pattern
+== Exercise 1: Draw Lots of Rectangles
 
 In this exercise, you will first study the starter code that draws the rectangles as follows.
-
-<img src="images/" width="200">
-image:images/StudenCourseTeacherUML.JPG[Student-Course-Teacher UML Diagram]
 
 image::images/rectangles.PNG[width=60%]
 
 You will figure out the pattern of the locations of the rectangles and convert it into a loop based solution. 
 
 === Starter code
-sourcecode/hoop-ex1-starter
+link:sourcecode/hoop-ex1-starter[Starter Code]
 
 === Solution code
-sourcecode/hoop-ex1-solution
-sourcecode/hoop-ex1-solution2
-sourcecode/hoop-ex1-solution3
+link:sourcecode/hoop-ex1-solution[Solution 1]
+link:sourcecode/hoop-ex1-solution2[Solution 2]
+link:sourcecode/hoop-ex1-solution3[Solution 3]
 
 == Exercise 2
 Description here
