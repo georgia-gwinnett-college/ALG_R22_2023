@@ -9,8 +9,3 @@ We decide to use Asiidoc to author the exercise descriptions: https://asciidoc.o
 
 Here is the app that you can use to edit an Asciidoc file: https://asciidocfx.com/#how-to-install-asciidocfx
 
-## How to open book template
-
-
-Download zip file and unzip it. Then, select a folder where you save unzipped files. 
-Then, click select folder. Then, edit each file as need. 
