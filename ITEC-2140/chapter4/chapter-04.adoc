@@ -8,13 +8,13 @@ Students will be able to:
 . xxx 
 . xxx
 
-== Turotial Video
+== Tutorial Video
 
 Will change to our own video: https://www.youtube.com/watch?v=Q04sKyZsUKo[How to download and install Processing Programming Language on Windows 10]
 
 Please follow the video to download and install Processing. The starter code used can be downloaded using the link below.
 
-== Starter Code 
+=== Starter Code 
 
 link to zip file
 
